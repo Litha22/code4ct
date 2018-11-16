@@ -29,7 +29,6 @@ Tools:
 
 - VS Code
 - GitBash
-- SASSmeister
 
 ```
 
