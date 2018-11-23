@@ -1,3 +1,16 @@
+input {
+  border-radius: 2px;
+  border: none;
+  padding: 0.8%; }
+
+.email-input {
+  width: 500px; }
+
+button {
+  border-radius: 2px;
+  border: none;
+  padding: 0.8%; }
+
 .grid-container1 {
   display: grid;
   /* Creating columns */
@@ -123,5 +136,38 @@
   background-color: royalblue;
   text-align: center;
   padding: 20px; }
+
+.grid7content {
+  display: grid;
+  /* Creating columns */
+  grid-template-columns: 25% 25% 25% 25%;
+  /* Create spaces between items or "blocks" */
+  grid-template-rows: auto auto;
+  grid-gap: 10px;
+  background-color: #0e0d0d;
+  color: white;
+  padding: 2% 20%; }
+
+.grid7content > div {
+  background-color: royalblue;
+  text-align: center;
+  padding: 20px;
+  height: 100px; }
+
+.grid8content {
+  display: grid;
+  /* Creating columns */
+  grid-template-columns: 100%;
+  /* Create spaces between items or "blocks" */
+  grid-template-rows: auto auto;
+  grid-gap: 0;
+  background-color: #9c0606;
+  color: white;
+  padding: 2% 30%; }
+
+.grid8content > div {
+  background-color: royalblue;
+  text-align: center;
+  height: 150px; }
 
 /*# sourceMappingURL=main.css.map */

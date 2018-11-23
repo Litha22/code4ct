@@ -152,6 +152,42 @@
     text-align: center;
     padding: 20px;
 }
-  
+
+.grid7content{
+    display:grid;
+    /* Creating columns */
+    grid-template-columns: 25% 25% 25% 25%;
+    /* Create spaces between items or "blocks" */
+    grid-template-rows: auto auto;
+    grid-gap: 10px;
+    background-color:rgb(14, 13, 13);
+    color:white;
+    padding: 2% 20%;
+}
+
+.grid7content >div {
+    background-color: royalblue;
+    text-align: center;
+    padding: 20px;
+    height: 100px;
+}
+
+.grid8content{
+    display:grid;
+    /* Creating columns */
+    grid-template-columns: 100%;
+    /* Create spaces between items or "blocks" */
+    grid-template-rows: auto auto;
+    grid-gap: 0;
+    background-color:rgb(156, 6, 6);
+    color:white;
+    padding: 2% 30%;
+}
+
+.grid8content >div {
+    background-color: royalblue;
+    text-align: center;
+    height: 150px;
+}
 
 
