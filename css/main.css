@@ -7,9 +7,15 @@ input {
   width: 500px; }
 
 button {
+  width: 90px;
+  height: 35px;
   border-radius: 2px;
   border: none;
   padding: 0.8%; }
+
+.submit-btn {
+  width: 80px;
+  height: 25px; }
 
 .grid-container1 {
   display: grid;
@@ -166,6 +172,52 @@ button {
   padding: 2% 30%; }
 
 .grid8content > div {
+  background-color: royalblue;
+  text-align: center;
+  height: 150px; }
+
+.grid9content {
+  display: grid;
+  /* Creating columns */
+  grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% auto;
+  /* Create spaces between items or "blocks" */
+  grid-gap: 5px;
+  background-color: black;
+  color: white;
+  padding: 5%; }
+
+.grid9content > div {
+  background-color: royalblue;
+  text-align: center;
+  height: 150px; }
+
+.grid10content {
+  display: grid;
+  /* Creating columns */
+  grid-template-columns: 35% 17% 24% 24%;
+  /* Create spaces between items or "blocks" */
+  grid-gap: 5px;
+  background-color: #b80000;
+  color: white;
+  padding: 5% 20%; }
+
+.grid10content > div {
+  background-color: royalblue;
+  text-align: center;
+  height: 150px; }
+
+.footercontent {
+  display: grid;
+  /* Creating columns */
+  grid-template-columns: 50% 50%;
+  /* Create spaces between items or "blocks" */
+  grid-gap: 5px;
+  background-color: #b80000;
+  color: white;
+  padding-top: 5%;
+  padding-right: 1%; }
+
+.footercontent > div {
   background-color: royalblue;
   text-align: center;
   height: 150px; }
