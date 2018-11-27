@@ -1,3 +1,8 @@
+.grid-container2 {
+  background-image: url(../img/Code4CT-homepage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 input {
   border-radius: 2px;
   border: none;
@@ -42,7 +47,8 @@ button {
   grid-gap: 0;
   background-color: black;
   color: white;
-  padding: 20%; }
+  padding: 20%;
+  height: 100px; }
 
 .grid-container2 > div {
   background-color: royalblue;
