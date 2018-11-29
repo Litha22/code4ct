@@ -29,12 +29,11 @@ button {
   grid-template-columns: 33.4% auto 33.3%;
   /* Create spaces between items or "blocks" */
   grid-gap: 0;
-  background-color: black;
+  background-color: #e38f84;
   color: white;
   padding: 10px; }
 
 .grid-container1 > div {
-  background-color: royalblue;
   text-align: center;
   padding: 20px 0;
   font-size: 34px; }
@@ -101,7 +100,7 @@ button {
   padding: 20px; }
 
 .grid-container5 {
-  background-color: grey;
+  background-color: #e38f84;
   padding-left: 25%;
   padding-top: 4%;
   padding-right: 15%; }
@@ -113,7 +112,6 @@ button {
   /* Create spaces between items or "blocks" */
   grid-template-rows: auto auto;
   grid-gap: 10px;
-  background-color: grey;
   color: white;
   padding-right: 15%;
   padding-bottom: 5%;

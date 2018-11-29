@@ -1,3 +1,7 @@
+@import'partials/variables';
+
+
+
 // Navbar starts here
 
 .grid-container1{
@@ -6,12 +10,12 @@
     grid-template-columns: 33.4% auto 33.3%;
     /* Create spaces between items or "blocks" */
     grid-gap: 0;
-    background-color: black;
+    background-color: $primary-color;
     color:white;
     padding:10px;
 }
 .grid-container1 >div {
-    background-color: royalblue;
+    // background-color: royalblue;
     text-align: center;
     padding: 20px 0;
     font-size: 34px;
@@ -98,7 +102,7 @@
 // grid-container5 starts here
 
 .grid-container5 {
-    background-color: grey;
+    background-color: $primary-color;
     padding-left: 25%;
     padding-top: 4%;
     padding-right: 15%;
@@ -111,7 +115,7 @@
     /* Create spaces between items or "blocks" */
     grid-template-rows: auto auto;
     grid-gap: 10px;
-    background-color:grey;
+    
     color:white;
     padding-right: 15%;
     padding-bottom: 5%;
