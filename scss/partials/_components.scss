@@ -1,4 +1,35 @@
-@import'partials/variables';
+
+
+.logo-img {
+	width:50%;
+	height:50%;
+	margin-right: 90%;
+}
+
+.search {
+	background-color: lightgray ;
+	color: white;
+	border-radius: 80px;
+}
+
+
+.search,.search:focus,.search:active{
+  outline:none;
+  border:none;
+}
+
+.fa-search {
+	cursor: pointer;
+	color:  pink;
+	
+}
+
+
+.navbar-links {
+	text-decoration: none;
+	font-size: 80%;
+	color: black;
+}
 
  input{
     border-radius: 2px;
@@ -10,18 +41,17 @@
 }
 
 button {
-    width: 90px;
-    
+    width: 200px;
     border-radius: 2px;
     border: none;
     padding: 0.8%;
-    background-color: $primary-color;
+    background-color:pink;
 }
 
 .submit-btn {
     width: 80px; 
     height: 25px;
-    background-color: $primary-color;
+    background-color: pink;
 }
 
 //Auto carousel begins here
