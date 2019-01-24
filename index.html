@@ -8,6 +8,11 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+
     <script src="main.js"></script>
 </head>
 <body> 
@@ -32,8 +37,8 @@
         </div>
         <div class="searchbox">
             <p>
-            <i class="fa fa-search"></i>
-            <input type="text" placeholder="Search..." name="search" class="search">
+                    <i class="fa fa-search"></i>
+                <input type="text" placeholder="search..." name="search" id="search"></input>
             </p>
         </div>
     </div>
@@ -61,8 +66,12 @@
         <div class="grid3content">
             <div class="item-1">
                 <h3>Who We Are</h3>
+                <p>
+                    <div class="rectangle-thick"></div>
+                    <div class="rectangle-thin"></div>
+                </p>
                 <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore.</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, dolorem eum tempore reprehenderit magni eveniet animi necessitatibus, quae fugit laudantium, perferendis impedit sint officiis. Consequuntur quidem nisi laborum doloremque totam perspiciatis odio magnam vitae?</p>
+                <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, dolorem eum tempore reprehenderit magni eveniet animi necessitatibus, quae fugit laudantium, perferendis impedit sint officiis. Consequuntur quidem nisi laborum doloremque totam perspiciatis odio magnam vitae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, velit. Iste ipsum modi ullam sequi quae vitae reprehenderit saepe necessitatibus dignissimos consequuntur obcaecati, consectetur architecto distinctio a optio ducimus voluptatum! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae obcaecati rem ut, modi dolores magni nulla alias asperiores nesciunt quidem porro sapiente accusantium ipsum! Incidunt, beatae! Soluta delectus earum ipsum.</p>
                 <button>Readmore</button>
             </div>
             <div class="item-2">Photo</div>
@@ -73,22 +82,37 @@
     </div>
     <div class="grid-container4">
         <div class="grid4content">
-            <div class="item-6">photo + content</div>
-            <div class="item-7">photo + content</div>
-            <div class="item-8">photo + content</div>
-            <div class="item-extra">photo + content</div>
+            <div class="item-6">
+                <i class="fa fa-desktop"></i>
+                <h5>CODING</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta cum esse ad impedit tempore sit nisi veritatis, voluptate iste, cumque magni, quo temporibus. Optio, in!</p>
+            </div>
+            <div class="item-7">
+                <i class="fa fa-print"></i>
+                <h5>PROBLEM SOLVING</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta cum esse ad impedit tempore sit nisi veritatis, voluptate iste, cumque magni, quo temporibus. Optio, in!</p>
+            </div>
+            <div class="item-8">
+                <i class="fa fa-camera-retro"></i>
+                <h5>CAREER GUIDANCE</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta cum esse ad impedit tempore sit nisi veritatis, voluptate iste, cumque magni, quo temporibus. Optio, in!</p>
+
+            </div>
+            <!-- <div class="item-extra">
+
+            </div> -->
         </div>
     </div>
     <div class="grid-container5">
         <h3>Lorem ipsum dolor</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, at. Impedit magni, odit, quo aperiam eveniet totam quisquam unde eaque doloremque veritatis enim dolorem aliquid!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, at. Impedit magni, odit, quo aperiam<br> eveniet totam quisquam unde eaque doloremque veritatis enim dolorem aliquid!</p>
 
         <div class="grid5content">
-            <div class="item-9">photo </div>
-            <div class="item-10">photo </div>
-            <div class="item-11">photo </div>
-            <div class="item-12">photo </div>
-            <div class="item-13">photo </div>   
+            <div class="item-9"> </div>
+            <div class="item-10"> </div>
+            <div class="item-11"> </div>
+            <div class="item-12"> </div>
+            <div class="item-13"> </div>   
         </div>
     </div>
     <div class="grid-container6">
@@ -149,54 +173,21 @@
 
     <!-- Partners Section Starts here -->
     
-    <div class="grid-container9">
         <div class="slider">
-            <div class="slide-track">
-                <div class="slide">
-                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="200" width="250" alt="" />
+                <div class="wrap">
+                        <div class="slide-container">
+                          <ul class="slides">
+                            <li><div><span>1</span></div></li>
+                            <li><div><span>2</span></div></li>
+                            <li><div><span>3</span></div></li>
+                            <li><div><span>4</span></div></li>
+                            <li><div><span>5</span></div></li>
+                            <li><div><span>6</span></div></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
                 </div>
-                <div class="slide">
-                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="200" width="250" alt="" />
-                </div>
-                <div class="slide">
-                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="200" width="250" alt="" />
-                </div>
-                <div class="slide">
-                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="200" width="250" alt="" />
-                </div>
-                <div class="slide">
-                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="200" width="250" alt="" />
-                </div>
-                <div class="slide">
-                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="200" width="250" alt="" />
-                </div>
-                <div class="slide">
-                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="200" width="250" alt="" />
-                </div>
-                <div class="slide">
-                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="200" width="250" alt="" />
-                </div>
-                <div class="slide">
-                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="200" width="250" alt="" />
-                </div>
-                <div class="slide">
-                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="200" width="250" alt="" />
-                </div>
-                <div class="slide">
-                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="200" width="250" alt="" />
-                </div>
-                <div class="slide">
-                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="200" width="250" alt="" />
-                </div>
-                <div class="slide">
-                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="200" width="250" alt="" />
-                </div>
-                <div class="slide">
-                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="200" width="250" alt="" />
-                </div>
-            </div>
-        </div>
-    </div>
 
     <!-- Partners Section Ends here -->
 
@@ -224,5 +215,24 @@
 
     <!-- Footer ends here -->
     </div>
+
+    <script>
+        $(document).ready(function(){
+        $slides = $('.slides');
+        $slides.bind('contentchanged', function(){
+       animate($slides);
+    });
+    animate($slides);
+  });
+  
+  function animate($slides){
+    var slidesLength = $slides.find('li').length;
+    if(slidesLength>3){
+      $slides.find('li:nth-last-child(-n+3)').clone().prependTo($slides);
+      $slides.addClass('animate');
+      $slides.css('animation-duration', slidesLength*6+'s');
+    }
+  }
+    </script>
 </body>
 </html>

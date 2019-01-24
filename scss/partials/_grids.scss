@@ -49,30 +49,38 @@
     /* Create spaces between items or "blocks" */
     grid-auto-rows: auto auto;
     grid-gap:20px;
-    background-color: rgba(0, 0, 0, 0.52);
-    color:white;
+    color:black;
     padding: 10%;
 }
 .grid3content >div {
-    background-color: royalblue;
-    text-align: center;
+    text-align: left;
     padding: 1%; 
 }
 
 .item-1 {
     grid-column: span 1;
     grid-row: span 2;
+    height:500px;
 }
 
 .item-2 {
     grid-column-start: 2;
     grid-column-end: 3;
+    background-color: rgba(0, 0, 0, 0.5);
 
 }
 
 .item-3 {
     grid-column-start: 3;
-    grid-column-end: 4;
+    grid-column-end: 4; 
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.item-4 {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.item-5 { 
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 // grid-container3 styling ends here
@@ -82,17 +90,16 @@
 .grid4content{
     display:grid;
     /* Creating columns */
-    grid-template-columns: 25% 25% 25% 25% ;
+    grid-template-columns: 33.4% auto 33.3%;
     /* Create spaces between items or "blocks" */
     grid-gap: 10px;
     background-color: rgba(0, 0, 0, 1);
     color:white;
-    padding: 10%;
-    height: 200px;
+    padding: 2% 10%;
 }
 
 .grid4content >div {
-    background-color: royalblue;
+    // background-color: royalblue;
     text-align: center;
     padding: 20px; 
 }
@@ -102,7 +109,7 @@
 // grid-container5 starts here
 
 .grid-container5 {
-    background-color: pink;
+    background-color: white;
     padding-left: 25%;
     padding-top: 4%;
     padding-right: 15%;
@@ -119,17 +126,18 @@
     color:white;
     padding-right: 15%;
     padding-bottom: 5%;
-    height: 200px;
 }
 
 .grid5content >div {
-    background-color: royalblue;
+    background-color: grey;
     text-align: center;
     padding: 20px;
+    // height:200px;
 }
 
 .item-11 {
     grid-row: span 2;
+    height:400px;
 }
 
 .grid-container6 {
