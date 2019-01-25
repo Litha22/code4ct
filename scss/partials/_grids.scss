@@ -13,12 +13,18 @@
     background-color: white;
     color:black;
     padding:5px;
+    position: fixed;
+    width: 100%;
 }
 .grid-container >div {
     // background-color: royalblue;
     text-align: center;
     // padding: 20px 0;
     font-size: 34px;
+}
+.searchbox {
+    margin-left: 10%;
+    margin-top: 4%;
 }
   
 .grid-container2{
@@ -110,9 +116,9 @@
 
 .grid-container5 {
     background-color: white;
-    padding-left: 25%;
+    padding-left: 13%;
     padding-top: 4%;
-    padding-right: 15%;
+    padding-right: 4%;
 }
 
 .grid5content{
@@ -141,10 +147,10 @@
 }
 
 .grid-container6 {
-    background-color: rgb(104, 9, 9);
-    padding-left: 25%;
+    background-color: white;
+    padding-left: 13%;
     padding-top: 4%;
-    padding-right: 15%;
+    padding-right: 13%;
 }
 
 .grid6content{
@@ -154,16 +160,16 @@
     /* Create spaces between items or "blocks" */
     grid-template-rows: auto auto;
     grid-gap: 10px;
-    background-color:rgb(104, 9, 9);
-    color:white;
+    background-color:white;
     padding-right: 4%;
     padding-bottom: 5%;
 }
 
 .grid6content >div {
-    background-color: royalblue;
-    text-align: center;
-    padding: 20px;
+    // background-color: royalblue;
+    text-align: left;
+    padding: 20px 10px;
+    height: 570px;
 }
 
 .grid7content{
@@ -172,17 +178,16 @@
     grid-template-columns: 25% 25% 25% 25%;
     /* Create spaces between items or "blocks" */
     grid-template-rows: auto auto;
-    grid-gap: 10px;
+    grid-gap: 0px;
     background-color:rgb(14, 13, 13);
     color:white;
     padding: 2% 20%;
 }
 
 .grid7content >div {
-    background-color: royalblue;
-    text-align: center;
+    text-align: left;
     padding: 20px;
-    height: 100px;
+   
 }
 
 .grid8content{
@@ -192,32 +197,15 @@
     /* Create spaces between items or "blocks" */
     grid-template-rows: auto auto;
     grid-gap: 0;
-    background-color:rgb(156, 6, 6);
-    color:white;
+    background-color: white;
     padding: 2% 30%;
 }
 
 .grid8content >div {
-    background-color: royalblue;
     text-align: center;
     height: 150px;
 }
 
-.grid-container9 {
-    display:grid;
-    /* Creating columns */
-    grid-template-columns: auto;
-    /* Create spaces between items or "blocks" */
-    
-    background-color:rgb(13, 7, 104);
-    color:white;
-    padding:5% 20%;
-}
-
-.grid-container9 >div {
-    text-align: center;
-    height: 150px;
-}
 
 .grid10content {
     display:grid;
@@ -225,15 +213,13 @@
     grid-template-columns: 35% 17% 24% 24%;
     /* Create spaces between items or "blocks" */
     grid-gap: 5px;
-    background-color:rgb(184, 0, 0);
-    color:white;
+    background-color: #f9f9f9;
     padding:5% 20%;
 }
 
 .grid10content >div {
-    background-color: royalblue;
-    text-align: center;
-    height: 150px;
+    text-align: left;
+    padding-left: 2%;
 }
 
 .footercontent {
@@ -242,16 +228,14 @@
     grid-template-columns: 50% 50%;
     /* Create spaces between items or "blocks" */
     grid-gap: 5px;
-    background-color:rgb(184, 0, 0);
+    background-color:pink;
     color:white;
-    padding-top: 5%;
     padding-right: 1%;
 }
 
 .footercontent >div {
-    background-color: royalblue;
     text-align: center;
-    height: 150px;
+    padding:4%;
 }
  
 
