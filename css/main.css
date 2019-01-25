@@ -185,6 +185,16 @@ button {
   font-size: 18px;
 }
 
+.greybox {
+  display: grid;
+  grid-template-columns: 100%;
+  background-color: lightgrey;
+  color: #818181;
+  padding-top: 15%;
+  padding-bottom: 4%;
+  text-align: center;
+}
+
 .grid-container {
   display: grid;
   /* Creating columns */
