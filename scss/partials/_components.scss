@@ -31,7 +31,14 @@
 	text-decoration: none;
 	font-size: 80%;
 	color: black;
+	transition: 0.2s ease-in-out;
 }
+
+.navbar-links:hover {
+	text-decoration: none;
+	color:rgb(252, 147, 165);
+}
+
 
  input{
     border-radius: 2px;
@@ -186,6 +193,31 @@ button {
  .map-btn {
 	width:10%;
 	border-radius: 2px;
+	background-color: transparent;
+	border: 0.1em solid #e7e7e7;
+	transition:0.2s ease-in-out;
+}
+
+.grey-btn {
+	width:10%;
+	border-radius: 2px;
+	background-color: transparent;
+	border: 0.1em solid #e7e7e7;
+	transition:0.2s ease-in-out;
+}
+
+.map-btn:hover {
+	width:10%;
+	border-radius: 2px;
+	background-color: transparent;
+	border: 0.1em solid rgb(252, 147, 165);
+}
+
+.grey-btn:hover {
+	width:10%;
+	border-radius: 2px;
+	background-color: transparent;
+	border: 0.1em solid rgb(252, 147, 165);
 }
 
 // grid10 styling
@@ -196,15 +228,51 @@ button {
 
 // greybox with links
 
-.greybox {
-	display: grid;
-	grid-template-columns: 100%;
-	background-color: lightgrey;
-	color: #818181;
-	// padding-left:40%;
-	// padding-left:40%;
-	padding-top: 15%;
-	padding-bottom: 4%;
-	text-align: center;
-	
+.fab {
+	color:grey;
+}
+
+.footericon {
+	color:white;
+}
+
+.greyicon {
+	background-color: grey
+}
+
+.form-input {
+	border:1px solid lightgray;
+}
+
+.head-link {
+	text-decoration: none;
+	color:black;
+	font-weight:600;
+	transition: 0.2s ease-in-out;
+}
+
+.head-link:hover {
+	text-decoration:none;
+	color:rgb(252, 147, 165);
+}
+
+li:hover {
+	color:rgb(252, 147, 165);
+	cursor: pointer;
+}
+
+.portfolio-intro >h3 {
+	color:#555555;
+}
+
+.gallery-btn {
+	width:40px;
+	height: 50px;
+	background-color: transparent;
+	border:1px solid lightgray;
+}
+
+.gallery {
+	text-align:center;
+	margin-left:13%;
 }
